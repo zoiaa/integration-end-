@@ -1,0 +1,124 @@
+
+  
+  /* Navbar */
+   
+   #nav{
+     background-color : #F7730C;
+     color:white;
+     font-family: Aniron;
+     font-size:11px;
+   }
+   
+   
+   /* Footer */
+   
+   .footer{
+     padding-top: 13px;
+     padding-bottom: 13px;
+     background-color: #F7730C;
+     font-size: 17px;
+   }
+   
+   .footer a{
+     color: white;
+   }
+   
+   /* Section */
+   
+   #container-ring{
+     background-image:url(https://image.noelshack.com/fichiers/2019/09/7/1551614103-bg-light.png);
+   }
+
+   .myPrecious:before, .myPrecious:after {
+    content: "";
+    display: inline-flex;
+    margin: 0 10px;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0.9px 0.9px 0.9px #cc5f00, inset 0.9px 0.9px 0.9px #cc5f00;
+    border: 4.0909090909px solid #FF7700;
+  }
+  
+  .theOneRing:before {
+    content: "";
+    display: inline-flex;
+    margin: 0 10px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 3px 3px 3px #cccc00, inset 3px 3px 3px #cccc00;
+    border: 13.6363636364px solid yellow;
+  }
+  
+  .pleaseFind:after {
+    display: inline-flex;
+  }
+  
+  .circle-1 {
+    display: inline-flex;
+    border-radius: 50%;
+    height: 46.6666666667px;
+    width: 46.6666666667px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0.9333333333px 0.9333333333px 0.9333333333px #4d4d4d, inset 0.9333333333px 0.9333333333px 0.9333333333px #4d4d4d;
+    border: 4.2424242424px solid #666666;
+    margin-right: -18.375px;
+  }
+  
+  .circle-2 {
+    display: inline-flex;
+    border-radius: 50%;
+    height: 58.3333333333px;
+    width: 58.3333333333px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 1.1666666667px 1.1666666667px 1.1666666667px #4d4d4d, inset 1.1666666667px 1.1666666667px 1.1666666667px #4d4d4d;
+    border: 5.303030303px solid #666666;
+    margin-right: -24.5px;
+  }
+  
+  .circle-3 {
+    display: inline-flex;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 1.4px 1.4px 1.4px #4d4d4d, inset 1.4px 1.4px 1.4px #4d4d4d;
+    border: 6.3636363636px solid #666666;
+    margin-right: -30.625px;
+  }
+  
+  .circle-4 {
+    display: inline-flex;
+    border-radius: 50%;
+    height: 81.6666666667px;
+    width: 81.6666666667px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 1.6333333333px 1.6333333333px 1.6333333333px #4d4d4d, inset 1.6333333333px 1.6333333333px 1.6333333333px #4d4d4d;
+    border: 7.4242424242px solid #666666;
+    margin-right: -36.75px;
+  }
+  
+  .circle-5 {
+    display: inline-flex;
+    border-radius: 50%;
+    height: 93.3333333333px;
+    width: 93.3333333333px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 1.8666666667px 1.8666666667px 1.8666666667px #4d4d4d, inset 1.8666666667px 1.8666666667px 1.8666666667px #4d4d4d;
+    border: 8.4848484848px solid #666666;
+    margin-right: -42.875px;
+  }
+  
+  .circle-6 {
+    display: inline-flex;
+    border-radius: 50%;
+    height: 105px;
+    width: 105px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 2.1px 2.1px 2.1px #4d4d4d, inset 2.1px 2.1px 2.1px #4d4d4d;
+    border: 9.5454545455px solid #666666;
+    margin-right: -49px;
+  }

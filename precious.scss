@@ -1,0 +1,74 @@
+/* Navbar */
+
+#nav{
+  background-color : #F7730C;
+  color:white;
+  font-family: Aniron;
+  font-size:11px;
+}
+
+
+/* Footer */
+
+.footer{
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background-color: #F7730C;
+  font-size: 17px;
+}
+
+.footer a{
+  color: white;
+}
+
+/* Section */
+
+#container-ring{
+  background-image:url(https://image.noelshack.com/fichiers/2019/09/7/1551614103-bg-light.png);
+}
+
+$main-color: #FF7700;
+$golden: yellow;
+$separator: #666666;
+
+@mixin ring($size, $color){
+  border-radius: 50%;
+  height: $size;
+  width: $size;
+  background-color: rgba(0,0,0,0);
+  box-shadow: $size/50 $size/50 $size/50 darken($color, 10%), inset $size/50 $size/50 $size/50 darken($color, 10%);
+  border: $size/11 solid $color;
+}
+
+
+.myPrecious {
+  &:before, &:after{
+    content: "";
+    display: inline-flex;
+    margin: 0 10px;
+    @include ring(45px, $main-color);
+  }
+}
+
+.theOneRing {
+  &:before{
+    content: "";
+    display: inline-flex;
+    margin: 0 10px;
+    @include ring(150px, $golden);
+  }
+}
+
+.pleaseFind {
+  &:after{
+    display: inline-flex;
+  }
+}
+
+@for $i from 1 through 6 {
+  .circle-#{$i} {
+    display: inline-flex;
+    @include ring(35px * (1+($i/3)), $separator);
+    margin-right: -((35px * (1+($i/2)))*0.35);
+  }
+}
